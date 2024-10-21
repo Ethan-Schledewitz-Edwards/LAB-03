@@ -100,6 +100,8 @@ public class NavControl : MonoBehaviour
     }
     #endregion
 
+    #region Animation Methods
+
     /// <summary>
     /// Sets the characters walking state.
     /// </summary>
@@ -123,4 +125,5 @@ public class NavControl : MonoBehaviour
         isAttacking = attacking;
         animator.SetBool("IsAttacking", isAttacking);
     }
+    #endregion
 }
